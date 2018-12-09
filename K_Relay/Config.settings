@@ -2,9 +2,6 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="K_Relay" GeneratedClassName="Config">
   <Profiles />
   <Settings>
-    <Setting Name="DefaultServerName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">USWest</Value>
-    </Setting>
     <Setting Name="StartProxyByDefault" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
@@ -13,6 +10,9 @@
     </Setting>
     <Setting Name="Theme" Type="MetroFramework.MetroThemeStyle" Scope="User">
       <Value Profile="(Default)">Default</Value>
+    </Setting>
+    <Setting Name="DefaultServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EUEast</Value>
     </Setting>
   </Settings>
 </SettingsFile>

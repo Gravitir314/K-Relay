@@ -8,16 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace K_Relay {
+namespace Mila {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
-    internal sealed partial class Config : global::System.Configuration.ApplicationSettingsBase {
+    internal sealed partial class AutoRespond : global::System.Configuration.ApplicationSettingsBase {
         
-        private static Config defaultInstance = ((Config)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Config())));
+        private static AutoRespond defaultInstance = ((AutoRespond)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new AutoRespond())));
         
-        public static Config Default {
+        public static AutoRespond Default {
             get {
                 return defaultInstance;
             }
@@ -25,49 +25,61 @@ namespace K_Relay {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sewers {
+            get {
+                return ((bool)(this["Sewers"]));
+            }
+            set {
+                this["Sewers"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool StartProxyByDefault {
+        public bool FastLOD {
             get {
-                return ((bool)(this["StartProxyByDefault"]));
+                return ((bool)(this["FastLOD"]));
             }
             set {
-                this["StartProxyByDefault"] = value;
+                this["FastLOD"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroColorStyle Style {
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Cemetary {
             get {
-                return ((global::MetroFramework.MetroColorStyle)(this["Style"]));
+                return ((bool)(this["Cemetary"]));
             }
             set {
-                this["Style"] = value;
+                this["Cemetary"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
-        public global::MetroFramework.MetroThemeStyle Theme {
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool OceanTrench {
             get {
-                return ((global::MetroFramework.MetroThemeStyle)(this["Theme"]));
+                return ((bool)(this["OceanTrench"]));
             }
             set {
-                this["Theme"] = value;
+                this["OceanTrench"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("EUEast")]
-        public string DefaultServerName {
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Craig {
             get {
-                return ((string)(this["DefaultServerName"]));
+                return ((bool)(this["Craig"]));
             }
             set {
-                this["DefaultServerName"] = value;
+                this["Craig"] = value;
             }
         }
     }
