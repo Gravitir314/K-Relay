@@ -142,6 +142,7 @@
     <Compile Include="Networking\Packets\Client\SquareHitPacket.cs" />
     <Compile Include="Networking\Packets\Server\QuestRedeemResponsePacket.cs" />
     <Compile Include="Networking\Packets\Server\KeyInfoResponsePacket.cs" />
+    <Compile Include="Networking\Packets\Server\RealmHeroLeftMsgPacket.cs" />
     <Compile Include="Networking\Packets\Server\ReskinUnlock.cs" />
     <Compile Include="Networking\Packets\Server\ServerPlayerShootPacket.cs" />
     <Compile Include="Networking\Packets\Server\EnemyShootPacket.cs" />
