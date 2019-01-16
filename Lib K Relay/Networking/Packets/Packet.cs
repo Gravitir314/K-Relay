@@ -103,7 +103,7 @@ namespace Lib_K_Relay.Networking.Packets
 	{
 		UNKNOWN,
 		FAILURE,
-		CREATESUCCESS,
+        CREATESUCCESS,
 		CREATE,
 		PLAYERSHOOT,
 		MOVE,
@@ -198,6 +198,7 @@ namespace Lib_K_Relay.Networking.Packets
 		CLAIMLOGINREWARDMSG,
 		LOGINREWARDMSG,
 		QUESTROOMMSG,
-		PETCHANGESKINMSG
-	}
+		PETCHANGESKINMSG,
+	    REALMHEROLEFTMSG
+    }
 }
